@@ -158,7 +158,7 @@ export default function Home() {
                   <button
                     key={context.id}
                     onClick={() => handleContextSelect(context.id)}
-                    className={`p-3 rounded-lg transition-colors border-gray-200 ${
+                    className={`p-3 rounded-lg transition-colors border border-gray-200 ${
                       selectedContext === context.id
                         ? 'bg-gray-200 font-medium '
                         : 'bg-white hover:bg-gray-50 border '
@@ -177,7 +177,7 @@ export default function Home() {
                   <button
                     key={role.id}
                     onClick={() => handleRoleSelect(role.id)}
-                    className={`p-3 rounded-lg transition-colors border-gray-200 ${
+                    className={`p-3 rounded-lg transition-colors border border-gray-200 ${
                       selectedRole === role.id
                         ? 'bg-gray-200 font-medium'
                         : 'bg-white hover:bg-gray-50 border '
